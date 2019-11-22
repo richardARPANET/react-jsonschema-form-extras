@@ -249,6 +249,7 @@ class TableField extends Component {
 
     return (
       <div id={$id}>
+        <h1>Testing 123</h1>
         <BootstrapTable {...this.tableConf} ref="table">
           {columns.map((column, i) => {
             return (

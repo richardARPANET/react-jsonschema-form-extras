@@ -247,6 +247,8 @@ class TableField extends Component {
       onChange
     );
 
+    console.log('test..');
+
     return (
       <div id={$id}>
         <h1>Testing 123</h1>

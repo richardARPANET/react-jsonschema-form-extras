@@ -218,34 +218,34 @@ class TableField extends Component {
   };
 
   render() {
-    let {
-      uiSchema,
-      schema,
-      formData,
-      registry: { fields },
-      idSchema: { $id } = {},
-      onChange,
-    } = this.props;
+    // let {
+    //   uiSchema,
+    //   schema,
+    //   formData,
+    //   registry: { fields },
+    //   idSchema: { $id } = {},
+    //   onChange,
+    // } = this.props;
 
-    this.tableConf = tableConfFrom(
-      uiSchema,
-      formData,
-      this.handleCellSave,
-      this.handleRowsDelete,
-      this.handleDeletedRow,
-      this.handleRowSelect,
-      this.handleAllRowSelect
-    );
-    this.tableConf.options.insertModal = this.createCustomModal;
+    // this.tableConf = tableConfFrom(
+    //   uiSchema,
+    //   formData,
+    //   this.handleCellSave,
+    //   this.handleRowsDelete,
+    //   this.handleDeletedRow,
+    //   this.handleRowSelect,
+    //   this.handleAllRowSelect
+    // );
+    // this.tableConf.options.insertModal = this.createCustomModal;
 
-    this.tableConf.cellEdit.beforeSaveCell = this.beforeSaveCell;
-    let columns = columnHeadersFrom(
-      schema,
-      uiSchema,
-      fields,
-      formData,
-      onChange
-    );
+    // this.tableConf.cellEdit.beforeSaveCell = this.beforeSaveCell;
+    // let columns = columnHeadersFrom(
+    //   schema,
+    //   uiSchema,
+    //   fields,
+    //   formData,
+    //   onChange
+    // );
 
     console.log('test..');
 

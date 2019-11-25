@@ -10,6 +10,7 @@ import draftRte from "./DraftRte";
 import formContextField from "./FormContextField";
 import dateTimePicker from "./DateTimePicker";
 
+alert(11);
 export default {
   table,
   asyncTypeahead: AsyncTypeaheadField,

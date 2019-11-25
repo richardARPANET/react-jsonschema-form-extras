@@ -218,6 +218,7 @@ class TableField extends Component {
   };
 
   render() {
+    alert(1)
     // let {
     //   uiSchema,
     //   schema,
